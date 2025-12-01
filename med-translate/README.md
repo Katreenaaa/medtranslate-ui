@@ -3,10 +3,6 @@
 A real-time doctor–patient translation interface built with **React + Tailwind + Vite**.
 
 🎥 Preview
-
-(Add your GIF here)  
-Example:
-
 ![App Demo](assets/preview.gif)
 
 ---
