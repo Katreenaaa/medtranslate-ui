@@ -1,87 +1,68 @@
 # MedTranslate UI 🌐🎤
 
-A real-time doctor–patient translation interface built with **React + Tailwind + Vite**.
+**Real-Time Doctor–Patient Translation Interface (Demo UI)**
 
-🎥 Preview
-![App Demo](assets/preview.gif)
-
----
-
-## ⭐ About the Project
-
-**MedTranslate UI** is a responsive web interface that enables real-time voice translation between doctors and patients.  
-It features a clean UI, language selection, microphone recording controls, session handling, and live conversation feed.
-
-This app was originally built for a hackathon UI challenge but stands alone as a polished frontend project.
+🔗 Live Demo: [https://medtranslate-ui.netlify.app](https://medtranslate-ui.netlify.app)
+🔗 GitHub Repository: [https://github.com/Katreenaaa/medtranslate-ui](https://github.com/Katreenaaa/medtranslate-ui)
 
 ---
 
-## 🎯 Purpose
+## Overview
 
-To demonstrate a **minimal, intuitive, medically-friendly** interface that supports:
+MedTranslate UI is a **frontend proof-of-concept** web application that demonstrates how a real-time doctor–patient translation interface could work in a medical setting. The project focuses on **user interface design, interaction flow, and responsiveness**, rather than full backend or AI-powered translation implementation.
 
-- Doctor ↔ Patient two-way communication
-- Real-time recording interactions
-- Clear color-coded roles
-- Responsive layout for tablets and small screens
-- Optional session summary export flow
+This project was built to showcase frontend engineering skills and thoughtful UI/UX design for healthcare-related use cases.
 
 ---
 
-## 👩‍💻 Contributors
+## ⚠️ Demo Mode Notice
 
-- **Katrina Emegbagba**
-- **Ibrahim Abdulrahim**
-- **Toluwase Shoniran**
+> **This application is a UI demo only.**
+> It does not include live speech-to-text, AI translation, or backend services.
+
+All interactions (microphone controls, conversation flow, exports) are implemented at a **demo / simulation level** to demonstrate functionality and user experience.
 
 ---
 
-## 💡 Core Features
+## Features
 
-### 🎙️ Mic Recording UI
+- 🎙️ Microphone control interface (demo-level interaction)
 
-- Dynamic Start/Stop microphone button
-- Pulse animation when recording
-- SVG-based mic icon
-- Accessibility-friendly hover & focus feedback
+* Dynamic Start/Stop microphone button
+* Pulse animation when recording
+* SVG-based mic icon
+* Accessibility-friendly hover & focus feedback
 
-### 🌐 Language Selector
+- 🌍 Language selection for doctor and patient roles
 
-- Doctor ↔ Patient language dropdowns
-- Query parameter support using `useSearchParams`
-- URL persistence for selected languages
+* Doctor ↔ Patient language dropdowns
+* Query parameter support using `useSearchParams`
+* URL persistence for selected languages
 
-### 🔄 Mode Toggle
+- 💬 Conversation feed with clear role distinction
 
-- Switch speaker role visually
-- Automatically updates header color
-- Large tap-friendly controls
+* Switch speaker role visually
+* Automatically updates header color
+* Large tap-friendly controls
 
-### 💬 Conversation Feed
+- 📄 Session summary export (UI-based)
 
-- Scrollable conversation card
-- Simple bubble layout
-- Automatically grows as translations appear
-
-### 🧾 Session Summary
-
-- Export options:
+* Export options:
   - Copy summary text
   - Download PDF
   - Start a new session
-- Fully responsive button layout
 
-### 📱 Responsive Layout
+- 🎨 Color‑coded roles for clarity and accessibility
 
-- All core components optimized for:
-  - Mobile
-  - Tablets
-  - Desktop (centered card layout)
-- Adaptive spacing & sizing using Tailwind breakpoints
+- 📱 Fully responsive design (mobile → desktop)
 
 ---
 
 ## 🧩 Tech Stack
+
+- **React** – Component-based UI development
+- **Tailwind CSS** – Utility-first styling and responsive design
+- **Vite** – Fast development and build tooling
 
 | Category           | Tools                                                             |
 | ------------------ | ----------------------------------------------------------------- |
@@ -123,20 +104,74 @@ medtranslate-ui/
 
 ---
 
-## 🚀 Features at a Glance
+## Project Scope
 
-- Modern UI with TailwindCSS
-- Real-time mic recording with animated SVG
-- Doctor ↔ Patient language selection
-- URL query persistence for language selection
-- Responsive conversation feed
-- Session summary export
-- Mobile → Desktop responsive layout
+### Included
+
+- Frontend UI/UX design
+- Interaction flow and component logic
+- Responsive layouts and accessibility considerations
+
+### Not Included
+
+- Live speech recognition APIs
+- AI translation engines
+- Backend services or databases
+
+The goal of this project is to demonstrate **frontend architecture and interface design**, not to deliver a production-ready medical application.
 
 ---
 
+## Motivation
+
+Language barriers remain a significant challenge in healthcare delivery. MedTranslate UI explores how thoughtful interface design could support clearer communication between doctors and patients, especially in multilingual or underserved environments.
+
+---
+
+## Getting Started (Local Development)
+
+```bash
+# clone the repository
+git clone https://github.com/Katreenaaa/medtranslate-ui.git
+
+# navigate into the project folder
+cd med-translate
+
+# install dependencies
+npm install
+
+# start development server
+npm run dev
+```
+
+---
+
+## Future Improvements
+
+- Improved UI interface
+- Integration with real speech‑to‑text APIs
+- AI-powered translation services
+- Backend session storage
+- Accessibility enhancements (screen reader support)
+
+---
+
+## Author
+
+**Katrina Emegbagha**
+Computer Engineering Student, University of Lagos
+Frontend Developer
+
+📧 Email: [katrinaemegbagha@gmail.com](mailto:katrinaemegbagha@gmail.com)
+🔗 GitHub: [https://github.com/Katreenaaa](https://github.com/Katreenaaa)
+
+---
+
+## Disclaimer
+
+This project is for **educational and demonstration purposes only** and should not be used as a medical device or clinical tool.
+
 ## 📌 Notes
 
-- Originally built as a hackathon UI challenge
+- Originally built as a hackathon challenge
 - Focuses solely on the frontend experience
-- Can be integrated with a backend translation engine for full functionality
